@@ -10,12 +10,17 @@ body {
 	background: #585c68;
 	font-size: 14px;
 	line-height: 20px;
-	color: black;	
+	color: black;
 }
 
 .title {
 	font-size: 18px;
-	font-weight: 500
+	font-weight: 500;
+	margin-bottom: 20px;	
+}
+
+.title .contact {
+	text-align: left;
 }
 
 #header {
@@ -28,9 +33,10 @@ body {
 }
 
 #header h1 {
-	font-size: 32px;
+	font-size: 38px;
 	font-weight: 100;
 	margin-bottom: 40px;
+	letter-spacing: 5px;
 }
 
 .top {
@@ -43,18 +49,20 @@ body {
 	border-top: 1.5px solid #a1a1a1;
 	border-bottom: 1.5px solid #a1a1a1;
 	padding: 10px;
+	letter-spacing: 5px;
 }
 
 
 .bold {
 	font-weight: 700;
-	font-size: 20px;
+	font-size: 18px;
 	text-transform: uppercase;
+	letter-spacing: 2px;
 }
 
 .semi_bold {
-	font-weight: 500;
-	font-size: 16px;
+	font-weight: 700;
+	font-size: 14px;
 }
 
 .resume {
@@ -63,6 +71,8 @@ body {
 	display: flex;
 	margin: 0 auto 50px auto;
 	background: white;
+	padding: 0 25px;
+
 }
 
 .contact_bio {
@@ -72,7 +82,6 @@ body {
 
 .contact_bio .resume_item {
 	padding: 25px 0;
-	border-bottom: 1.5px solid #a1a1a1;
 }
 
 .contact_bio .resume_contact {
@@ -88,6 +97,7 @@ body {
 .contact_bio .resume_bio {
 	width: 520px;
 	padding: 25px;
+	border-left: 1.5px solid #a1a1a1;
 }
 
 .resume .resume-left {
@@ -98,10 +108,6 @@ body {
 
 .resume .resume-left .resume_content {
 	padding: 0 25px;
-}
-
-.title {
-	margin-bottom: 20px;	
 }
 
 .resume .resume_item {
@@ -145,6 +151,10 @@ ul li .icon {
 	padding: 25px;
 }
 
+.resume_experience .bold {
+	text-align: center;
+}
+
 .resume .resume-right .resume_experience ul {
 	padding-left: 40px;
 	overflow: hidden;
@@ -152,6 +162,11 @@ ul li .icon {
 
 .resume .resume-right ul li {
 	position: relative;
+	list-style-position: outside;
+}
+
+.info ul li {
+	list-style: disc !important;
 }
 
 .resume .resume-right ul li .work_header {
