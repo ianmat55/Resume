@@ -103,7 +103,7 @@ body {
 .resume .resume-left {
 	width: 280px;
 	background: #fff;
-	padding: 25px;
+	padding: 25px 0;
 }
 
 .resume .resume-left .resume_content {
