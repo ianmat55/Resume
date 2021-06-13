@@ -13,9 +13,32 @@ body {
 	color: black;	
 }
 
+.title {
+	font-size: 18px;
+	font-weight: 500
+}
+
 #header {
 	background: white;
 	text-align: center;
+	margin: 50px auto 0 auto;
+	width: 800px;
+	height: auto;
+	padding: 50px 25px 0 25px;
+}
+
+#header h1 {
+	font-size: 32px;
+	font-weight: 100;
+	margin-bottom: 40px;
+}
+
+.occupation {
+	font-size: 20px;
+	font-weight: 100;
+	border-top: 1.5px solid #a1a1a1;
+	border-bottom: 1.5px solid #a1a1a1;
+	padding: 10px;
 }
 
 .bold {
@@ -33,7 +56,7 @@ body {
 	width: 800px;
 	height: auto;
 	display: flex;
-	margin: 50px auto;
+	margin: 0 auto 50px auto;
 	background: white;
 }
 
