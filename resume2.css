@@ -9,8 +9,8 @@
 body {
 	background: #585c68;
 	font-size: 14px;
-	line-height: 22px;
-	color: #555555;	
+	line-height: 20px;
+	color: black;	
 }
 
 #header {
@@ -39,7 +39,7 @@ body {
 
 .resume .resume-left {
 	width: 280px;
-	background: #0bb5f4;
+	background: #fff;
 }
 
 .resume .resume-left .resume_content {
@@ -52,10 +52,11 @@ body {
 
 .resume .resume_item {
 	padding: 25px 0;
-	border-bottom: 2px solid #a1a1a1;
+	border-bottom: 1.5px solid #a1a1a1;
 }
 
-.resume .resume-left .resume_item:last-child {
+.resume .resume-left .resume_item:last-child,
+.resume .resume-right .resume_item:last-child {
 	border-bottom: 0px;
 }
 
@@ -84,4 +85,54 @@ body {
 	transform: translate(-50%, -50%);
 } */
 
+.resume .resume-right {
+	width: 520px;
+	background: #fff;
+	padding: 25px;
+}
+
+.resume .resume-right .resume_experience ul {
+	padding-left: 40px;
+	overflow: hidden;
+}
+
+.resume .resume-right ul li {
+	position: relative;
+}
+
+.resume .resume-right ul li .work_header {
+	margin-bottom: 15px;
+}
+
+.resume .resume-right ul li .info {
+	margin-bottom: 20px;
+}
+
+.resume .resume-right ul li:last-child .info {
+	margin-bottom: 0;
+
+}
+
+.resume .resume-right .resume_experience .connect .connect-li:before {
+	content: "";
+	position: absolute;
+	top: 5px;
+	left: -25.5px;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	border: 2px solid #a1a1a1;
+	background: #a1a1a1;
+
+}
+
+.resume .resume-right .resume_experience .connect .connect-li:after {
+	content: "";
+	position: absolute;
+	top: 14px;
+	left: -22px;
+	width: 2px;
+	height: 400px;
+	background: #a1a1a1;
+}
 
