@@ -33,6 +33,10 @@ body {
 	margin-bottom: 40px;
 }
 
+.top {
+	padding: 25px 25px 0 25px;
+}
+
 .occupation {
 	font-size: 20px;
 	font-weight: 100;
@@ -63,6 +67,7 @@ body {
 
 .contact_bio {
 	display: flex;
+	padding: 25px;
 }
 
 .contact_bio .resume_item {
@@ -88,6 +93,7 @@ body {
 .resume .resume-left {
 	width: 280px;
 	background: #fff;
+	padding: 25px;
 }
 
 .resume .resume-left .resume_content {
