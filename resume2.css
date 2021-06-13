@@ -29,7 +29,7 @@ body {
 	margin: 50px auto 0 auto;
 	width: 800px;
 	height: auto;
-	padding: 50px 25px 0 25px;
+	padding: 50px 50px 0 50px;
 }
 
 #header h1 {
@@ -40,7 +40,7 @@ body {
 }
 
 .top {
-	padding: 25px 25px 0 25px;
+	padding-top: 25px;
 }
 
 .occupation {
@@ -78,6 +78,7 @@ body {
 .contact_bio {
 	display: flex;
 	padding: 25px;
+	border-bottom: 1.5px solid #a1a1a1;
 }
 
 .contact_bio .resume_item {
@@ -204,4 +205,3 @@ ul li .icon {
 	height: 400px;
 	background: #a1a1a1;
 }
-
