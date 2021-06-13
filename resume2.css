@@ -41,6 +41,7 @@ body {
 	padding: 10px;
 }
 
+
 .bold {
 	font-weight: 700;
 	font-size: 20px;
@@ -60,6 +61,30 @@ body {
 	background: white;
 }
 
+.contact_bio {
+	display: flex;
+}
+
+.contact_bio .resume_item {
+	padding: 25px 0;
+	border-bottom: 1.5px solid #a1a1a1;
+}
+
+.contact_bio .resume_contact {
+	width: 280px;
+}
+
+.contact_bio .resume_contact ul li {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.contact_bio .resume_bio {
+	width: 520px;
+	padding: 25px;
+}
+
 .resume .resume-left {
 	width: 280px;
 	background: #fff;
@@ -69,7 +94,7 @@ body {
 	padding: 0 25px;
 }
 
-.resume .title {
+.title {
 	margin-bottom: 20px;	
 }
 
@@ -93,7 +118,7 @@ body {
 	margin-bottom: 0;
 }
 
-.resume .resume-left ul li .icon {
+ul li .icon {
 	width: 30px;
 	height: 30px;
 	border-radius: 50%;
