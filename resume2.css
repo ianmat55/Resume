@@ -73,12 +73,8 @@ body {
 
 .contact_bio {
 	display: flex;
-	padding: 35px 0;
+	padding: 45px 0;
 	border-bottom: 1.5px solid #a1a1a1;
-}
-
-.contact_bio .resume_item {
-	padding: 25px 0;
 }
 
 .contact_bio .resume_contact {
@@ -88,15 +84,17 @@ body {
 .contact_bio .resume_contact ul li {
 	display: flex;
 	align-items: center;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 }
 
 .contact_bio .resume_bio {
-	width: 420px;
-	padding: 25px;
-	border-left: 1.5px solid #a1a1a1;
+	width: 423px;
 }
 
+.test {
+	border-left: 1.5px solid #a1a1a1;
+	padding: 0 25px
+}
 
 .resume_bio p {
 	text-align: left;
@@ -105,16 +103,31 @@ body {
 .resume .resume-left {
 	width: 280px;
 	background: #fff;
-	padding: 35px 0;
 }
 
 .resume .resume-left .resume_content {
 	padding: 0 25px;
 }
 
-.resume .resume_item {
+/* .resume .resume_item {
 	padding: 35px 0;
+} */
+
+.resume_education {
+	padding: 45px 0 0 0;
+}
+.resume_experience{
+	padding: 45px 0;
+}
+
+.resume_skills {
+	padding: 45px 0;
+}
+
+.last {
+	width: 50%;
 	border-bottom: 1.5px solid #a1a1a1;
+	padding-bottom: 35px;
 }
 
 .resume .resume-left .resume_item:last-child,
@@ -150,7 +163,7 @@ ul li .icon {
 .resume .resume-right {
 	width: 520px;
 	background: #fff;
-	padding: 25px;
+	padding: 0 25px;
 }
 
 .resume_experience .bold {
