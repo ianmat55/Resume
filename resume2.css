@@ -96,9 +96,13 @@ body {
 }
 
 .contact_bio .resume_bio {
-	width: 520px;
+	width: 430px;
 	padding: 25px;
 	border-left: 1.5px solid #a1a1a1;
+}
+
+.resume_bio p {
+	text-align: left;
 }
 
 .resume .resume-left {
@@ -187,7 +191,7 @@ ul li .icon {
 	content: "";
 	position: absolute;
 	top: 5px;
-	left: -25.5px;
+	left: -25.9px;
 	width: 5px;
 	height: 5px;
 	border-radius: 50%;
