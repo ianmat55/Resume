@@ -157,7 +157,8 @@ ul li .icon {
 }
 
 .resume_experience .bold {
-	text-align: center;
+	text-align: left;
+	padding-left: 39px;
 }
 
 .resume .resume-right .resume_experience ul {
@@ -205,7 +206,7 @@ ul li .icon {
 	position: absolute;
 	top: 14px;
 	left: -22px;
-	width: 2px;
+	width: 1px;
 	height: 400px;
 	background: #a1a1a1;
 }
