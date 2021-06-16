@@ -161,6 +161,10 @@ ul li .icon {
 	font-size: 10px;
 }
 
+ul li #linkedin_data {
+	text-align: left;
+}
+
 /* .resume .icon i {
 	position: absolute;
 	top: 50%;
@@ -215,8 +219,8 @@ ul li .icon {
 	width: 5px;
 	height: 5px;
 	border-radius: 50%;
-	border: 2px solid #a1a1a1;
-	background: #a1a1a1;
+	border: 2px solid rgb(65 122 185);
+	background: rgb(65 122 185);
 
 }
 
