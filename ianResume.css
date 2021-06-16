@@ -7,14 +7,13 @@
 }
 
 body {
-	background: #585c68;
-	font-size: 14px;
+	font-size: 12px;
 	line-height: 20px;
 	color: black;
 }
 
 .title {
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 500;
 	margin-bottom: 20px;	
 }
@@ -34,10 +33,10 @@ p {
 #header {
 	background: white;
 	text-align: center;
-	margin: 50px auto 0 auto;
-	width: 800px;
+	margin: 0 auto;
+	width: 816px;
 	height: auto;
-	padding: 50px 50px 0 50px;
+	padding: 35px 50px 0 50px;
 }
 
 #header h1 {
@@ -70,18 +69,19 @@ p {
 }
 
 .resume {
-	width: 800px;
+	width: 816px;
 	height: auto;
 	display: flex;
-	margin: 0 auto 50px auto;
+	margin: 0 auto;
 	background: white;
 	padding: 0 25px;
+	
 
 }
 
 .contact_bio {
 	display: flex;
-	padding: 45px 0;
+	padding: 35px 0 25px 0;
 	border-bottom: 1.5px solid #a1a1a1;
 }
 
@@ -122,7 +122,7 @@ p {
 } */
 
 .resume_education {
-	padding: 45px 0 0 0;
+	padding: 46px 0 0 0;
 }
 .resume_experience{
 	padding: 45px 0;
@@ -219,8 +219,8 @@ ul li #linkedin_data {
 	width: 5px;
 	height: 5px;
 	border-radius: 50%;
-	border: 2px solid rgb(65 122 185);
-	background: rgb(65 122 185);
+	border: 2px solid rgb(65 122 185) !important;
+	background: rgb(65 122 185) !important;
 
 }
 
@@ -228,8 +228,8 @@ ul li #linkedin_data {
 	content: "";
 	position: absolute;
 	top: 14px;
-	left: -22.375px;
-	width: 1px;
+	left: -22px;
+	width: 1px !important;
 	height: 400px;
-	background: #a1a1a1;
+	background: #a1a1a1 !important;
 }
