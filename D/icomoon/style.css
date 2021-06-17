@@ -1,0 +1,48 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.icon-desktop {
+  width: 1.21875em;
+}
+
+.icon-phone1 {
+  width: 0.59375em;
+}
+
+.icon-camera1 {
+  width: 1.3125em;
+}
+
+.icon-lock1 {
+  width: 0.875em;
+}
+
+.icon-linegraph {
+  width: 1.3125em;
+}
+
+.icon-map-pin {
+  width: 0.75em;
+}
+
+.icon-chat {
+  width: 1.3125em;
+}
+
+.icon-images {
+  width: 1.125em;
+}
