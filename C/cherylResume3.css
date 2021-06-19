@@ -8,7 +8,7 @@
 
 body {
 	font-size: 12px;
-	line-height: 23px;
+	line-height: 21px;
 	color: black;
 }
 
@@ -23,7 +23,7 @@ p {
 }
 
 .skills {
-	line-height: 40px;
+	line-height: 33px !important;
 }
 
 .title .contact {
@@ -34,15 +34,15 @@ p {
 	background: white;
 	text-align: center;
 	margin: 0 auto;
-	width: 900px;
+	width: 816px;
 	height: auto;
 	padding: 35px 50px 0 50px;
 }
 
 #header h1 {
-	font-size: 48px;
+	font-size: 38px;
 	font-weight: 100;
-	margin-bottom: 50px;
+	margin-bottom: 40px;
 	letter-spacing: 5px;
 }
 
@@ -69,17 +69,17 @@ p {
 }
 
 .resume {
-	width: 900px;
+	width: 816px;
 	height: auto;
 	display: flex;
 	margin: 0 auto;
 	background: white;
-	padding: 0 25px;
+	padding: 0 25px 35px 25px;
 }
 
 
 .resume_contact {
-	padding: 45px 0 0 0;
+	width: 280px;
 }
 
 .resume_contact ul li {
@@ -93,11 +93,14 @@ p {
 	padding: 0 0 0 40px;
 }
 
+.resume_bio p {
+	text-align: left;
+}
 
 .resume .resume-left {
-	width: 280px;
+	width: 255px;
 	background: #fff;
-	line-height: 25px;
+	line-height: 23px;
 }
 
 .resume .resume-left .resume_content {
@@ -109,9 +112,13 @@ p {
 } */
 
 .resume_education {
-	padding: 46px 0 0 0;
+	padding: 45px 0 0 0;
 }
 .resume_experience{
+	padding: 45px 0 35px 0;
+}
+
+.resume_contact {
 	padding: 45px 0 0 0;
 }
 
@@ -133,7 +140,7 @@ p {
 .resume .resume-left ul li {
 	display: flex;
 	align-items: center;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .resume .resume-left ul li:last-child {
@@ -160,7 +167,7 @@ ul li #linkedin_data {
 } */
 
 .resume .resume-right {
-	width: 650px;
+	width: 500px;
 	background: #fff;
 	padding: 0 25px;
 }
@@ -217,6 +224,20 @@ ul li #linkedin_data {
 	top: 14px;
 	left: -22px;
 	width: 1px !important;
-	height: 450px;
+	height: 400px;
 	background: #a1a1a1 !important;
 }
+
+/*.bottom {
+	background-color: white;
+	margin: 0 auto;
+	width: 816px;
+	height: auto;
+	padding: 20px 50px 0 50px;
+}
+
+.resume_achievements {
+	border-top: 1.5px solid #a1a1a1;
+	padding: 35px 0;
+	text-align: center;
+} */

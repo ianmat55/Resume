@@ -8,7 +8,7 @@
 
 body {
 	font-size: 12px;
-	line-height: 23px;
+	line-height: 20px;
 	color: black;
 }
 
@@ -23,7 +23,7 @@ p {
 }
 
 .skills {
-	line-height: 40px;
+	margin: 15px 0;
 }
 
 .title .contact {
@@ -34,22 +34,22 @@ p {
 	background: white;
 	text-align: center;
 	margin: 0 auto;
-	width: 900px;
+	width: 816px;
 	height: auto;
 	padding: 35px 50px 0 50px;
 }
 
 #header h1 {
-	font-size: 48px;
+	font-size: 38px;
 	font-weight: 100;
-	margin-bottom: 50px;
+	margin-bottom: 40px;
 	letter-spacing: 5px;
 }
 
 .occupation {
 	font-size: 18px;
-	border-top: 1.5px solid #a1a1a1;
-	border-bottom: 1.5px solid #a1a1a1;
+	border-top: 1.5px solid #e20000;
+	border-bottom: 1.5px solid #e20000;
 	padding: 12px;
 	letter-spacing: 5px;
 	text-transform: uppercase;
@@ -69,7 +69,7 @@ p {
 }
 
 .resume {
-	width: 900px;
+	width: 816px;
 	height: auto;
 	display: flex;
 	margin: 0 auto;
@@ -77,27 +77,39 @@ p {
 	padding: 0 25px;
 }
 
+.contact_bio {
+	display: flex;
+	padding: 35px 0 25px 0;
+	border-bottom: 1.5px solid #a1a1a1;
+} 
 
-.resume_contact {
-	padding: 45px 0 0 0;
+.contact_bio .resume_contact {
+	width: 280px;
 }
 
-.resume_contact ul li {
+.contact_bio .resume_contact ul li {
 	display: flex;
 	align-items: center;
 	margin-bottom: 15px;
 }
+
+.contact_bio .resume_bio {
+	width: 500px;
+} 
 
 .test {
 	border-left: 1.5px solid #a1a1a1;
 	padding: 0 0 0 40px;
 }
 
+.resume_bio p {
+	text-align: left;
+}
 
 .resume .resume-left {
 	width: 280px;
 	background: #fff;
-	line-height: 25px;
+	line-height: 20px;
 }
 
 .resume .resume-left .resume_content {
@@ -112,11 +124,11 @@ p {
 	padding: 46px 0 0 0;
 }
 .resume_experience{
-	padding: 45px 0 0 0;
+	padding: 45px 0;
 }
 
 .resume_skills {
-	padding: 15px 0;
+	padding: 35px 0;
 }
 
 .last {
@@ -160,7 +172,7 @@ ul li #linkedin_data {
 } */
 
 .resume .resume-right {
-	width: 650px;
+	width: 610px;
 	background: #fff;
 	padding: 0 25px;
 }
@@ -195,7 +207,10 @@ ul li #linkedin_data {
 
 .resume .resume-right ul li:last-child .info {
 	margin-bottom: 0;
+}
 
+#last-info{
+	margin-bottom: 0;
 }
 
 .resume .resume-right .resume_experience .connect .connect-li:before {
@@ -206,8 +221,8 @@ ul li #linkedin_data {
 	width: 5px;
 	height: 5px;
 	border-radius: 50%;
-	border: 2px solid rgb(65 122 185) !important;
-	background: rgb(65 122 185) !important;
+	border: 2px solid #e20000;
+	background: #e20000;
 
 }
 
@@ -217,6 +232,36 @@ ul li #linkedin_data {
 	top: 14px;
 	left: -22px;
 	width: 1px !important;
-	height: 450px;
+	height: 250px;
 	background: #a1a1a1 !important;
+}
+
+.bottom {
+	background-color: white;
+	margin: 0 auto;
+	width: 816px;
+	height: auto;
+	padding: 0 50px;
+}
+
+.cert_lead {
+	border-top: 1.5px solid #a1a1a1;
+	display: flex;
+	padding: 35px 0 25px 0;
+}
+
+.resume_certs {
+	text-align: left;
+	width: 355px;
+	border-right: 1.5px solid #a1a1a1;
+}
+
+.resume_certs ul li {
+	margin-bottom: 15px;
+}
+
+.resume_achievements {
+	text-align: left;
+	width: 610px;
+	padding-left: 40px;
 }
