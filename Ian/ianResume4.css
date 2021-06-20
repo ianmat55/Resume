@@ -23,7 +23,7 @@ p {
 }
 
 .skills {
-	line-height: 40px;
+	line-height: 35px;
 }
 
 .title .contact {
@@ -37,6 +37,7 @@ p {
 	width: 900px;
 	height: auto;
 	padding: 35px 50px 0 50px;
+	margin-top: 50px;
 }
 
 #header h1 {
@@ -48,8 +49,8 @@ p {
 
 .occupation {
 	font-size: 18px;
-	border-top: 1.5px solid #a1a1a1;
-	border-bottom: 1.5px solid #a1a1a1;
+	border-top: 1.5px solid rgb(65 122 185);
+	border-bottom: 1.5px solid rgb(65 122 185);
 	padding: 12px;
 	letter-spacing: 5px;
 	text-transform: uppercase;
@@ -116,7 +117,7 @@ p {
 }
 
 .resume_skills {
-	padding: 15px 0;
+	padding: 16px 0;
 }
 
 .last {
