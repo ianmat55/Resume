@@ -23,7 +23,7 @@ p {
 }
 
 .skills {
-	margin: 15px 0;
+	margin: 12px 0;
 }
 
 .title .contact {
@@ -42,19 +42,13 @@ p {
 #header h1 {
 	font-size: 38px;
 	font-weight: 100;
-	margin-bottom: 40px;
+	margin: 0 auto 40px auto;
 	letter-spacing: 5px;
 }
 
-.occupation {
-	font-size: 18px;
-	border-top: 1.5px solid #e20000;
+.top {
 	border-bottom: 1.5px solid #e20000;
-	padding: 12px;
-	letter-spacing: 5px;
-	text-transform: uppercase;
 }
-
 
 .bold {
 	font-weight: 700;
@@ -109,7 +103,7 @@ p {
 .resume .resume-left {
 	width: 280px;
 	background: #fff;
-	line-height: 20px;
+	line-height: 19px;
 }
 
 .resume .resume-left .resume_content {
