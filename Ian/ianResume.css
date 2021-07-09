@@ -126,6 +126,11 @@ p {
 .resume_education {
 	padding: 46px 0 0 0;
 }
+
+#university {
+	font-size: 14px;
+}
+
 .resume_experience{
 	padding: 45px 0;
 }
