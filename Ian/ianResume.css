@@ -56,6 +56,21 @@ p {
 	text-transform: uppercase;
 }
 
+.job-history {
+	font-size: 18px;
+	border-top: 1.5px solid rgb(65 122 185);
+	border-bottom: 1.5px solid rgb(65 122 185);
+	padding: 12px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	width: 816px;
+	text-align: center;
+}
+
+.job-list {
+	padding: 45px !important;
+}
+
 
 .bold {
 	font-weight: 700;
@@ -131,7 +146,7 @@ p {
 	font-size: 14px;
 }
 
-.resume_experience{
+.resume_projects{
 	padding: 45px 0;
 }
 
@@ -185,12 +200,12 @@ ul li #linkedin_data {
 	padding: 0 25px;
 }
 
-.resume_experience .bold {
+.resume_projects .bold {
 	text-align: left;
 	padding-left: 60px;
 }
 
-.resume .resume-right .resume_experience ul {
+.resume .resume-right .resume_projects ul {
 	padding-left: 40px;
 	overflow: hidden;
 }
@@ -205,7 +220,7 @@ ul li #linkedin_data {
 	list-style: disc !important;
 }
 
-.resume .resume-right ul li .work_header {
+.resume .resume-right ul li .project_header {
 	margin-bottom: 15px;
 }
 
@@ -218,7 +233,7 @@ ul li #linkedin_data {
 
 }
 
-.resume .resume-right .resume_experience .connect .connect-li:before {
+.resume .resume-right .resume_projects .connect .connect-li:before {
 	content: "";
 	position: absolute;
 	top: 5px;
@@ -231,7 +246,7 @@ ul li #linkedin_data {
 
 }
 
-.resume .resume-right .resume_experience .connect .connect-li:after {
+.resume .resume-right .resume_projects .connect .connect-li:after {
 	content: "";
 	position: absolute;
 	top: 14px;
