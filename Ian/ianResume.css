@@ -71,6 +71,10 @@ p {
 	padding: 45px !important;
 }
 
+.job-list li {
+	padding: 5px 0;
+}
+
 
 .bold {
 	font-weight: 700;
