@@ -24,7 +24,7 @@ p {
 
 .skills {
 	margin: 15px 0;
-	line-height: 26px;
+	line-height: 14px;
 }
 
 .title .contact {
@@ -131,7 +131,7 @@ p {
 .resume .resume-left {
 	width: 280px;
 	background: #fff;
-	line-height: 22px;
+	line-height: 20px;
 }
 
 .resume .resume-left .resume_content {
