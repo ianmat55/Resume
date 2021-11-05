@@ -1,0 +1,10 @@
+Dear Hiring Manager,
+
+As a recent college graduate, I am seeking opportunities to further build my career and gain meaningful experience as a web developer. 
+
+I have intermediate experience with SQL, Python, and JavaScript. Here is a link to my Github for my current projects: https://github.com/ianmat55.
+
+Please take a moment to review my enclosed resume as well as my application. I appreciate the evaluation of my credentials and look forward to hearing from you.
+
+Sincerely,
+Ian Matsumoto
