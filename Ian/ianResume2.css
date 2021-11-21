@@ -50,28 +50,20 @@ h1 {
 	border-bottom: 1px solid #94c8ed;
 }
 
-.skill-tree {
+#Section-skills div{
 	display: flex;
 	justify-content: space-between;
 }
 
-.skill-tree div {
-	display: flex;
-	flex-direction: row;
+#Section-skills div p {
+	padding: 0 10px;
 }
 
-.skill-tree div p {
-	padding: 0 5px;
+#skill-categories {
+	flex-direction: column;
 }
 
-/* #tech-skills {
-	margin: 0 5em;
+#skill-tree {
+	flex-direction: column;
+	/* margin-left: 10em; */
 }
-
-#lang-skills {
-	margin: 0 6em;
-}
-
-#prof-skills {
-	margin: 0 6em;
-} */

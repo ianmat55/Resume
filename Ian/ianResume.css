@@ -51,17 +51,35 @@ a:hover {
 #header h1 {
 	font-size: 38px;
 	font-weight: 100;
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 	letter-spacing: 5px;
 }
 
-.occupation {
-	font-size: 18px;
+#contact {
+	font-size: 12px;
 	border-top: 1.5px solid rgb(65 122 185);
 	border-bottom: 1.5px solid rgb(65 122 185);
 	padding: 12px;
-	letter-spacing: 5px;
+	letter-spacing: 2px;
 	text-transform: uppercase;
+}
+
+#contact ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#contact ul li {
+	display: flex;
+	flex-direction: row;
+	margin: 0 5px;
+	justify-content: center;
+	align-items: center;
+}
+
+#contact ul li img {
+	margin: 0 5px;
 }
 
 .job-history {
@@ -108,12 +126,11 @@ a:hover {
 	margin: 0 auto;
 	background: white;
 	padding: 0 25px;
-	
-
 }
 
 .contact_bio {
 	display: flex;
+	flex-direction: row;
 	padding: 35px 0 25px 0;
 	border-bottom: 1.5px solid #a1a1a1;
 }
@@ -155,9 +172,9 @@ a:hover {
 	padding: 35px 0;
 } */
 
-.resume_education {
+/* .resume_education {
 	padding: 46px 0 0 0;
-}
+} */
 
 #university {
 	font-size: 14px;
@@ -168,7 +185,7 @@ a:hover {
 }
 
 .resume_skills {
-	padding: 35px 0;
+	padding: 45px 0 15px 0;
 }
 
 .last {
@@ -191,25 +208,6 @@ a:hover {
 .resume .resume-left ul li:last-child {
 	margin-bottom: 0;
 }
-
-ul li .icon {
-	width: 30px;
-	height: 30px;
-	border-radius: 50%;
-	margin-right: 15px;
-	font-size: 10px;
-}
-
-ul li #linkedin_data {
-	text-align: left;
-}
-
-/* .resume .icon i {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-} */
 
 .resume .resume-right {
 	width: 610px;
@@ -271,4 +269,12 @@ ul li #linkedin_data {
 	width: 1px !important;
 	height: 400px;
 	background: #a1a1a1 !important;
+}
+
+.skill_title {
+	margin: 10px 0;
+}
+
+.resume_skills div .bold {
+	margin-bottom: 25px;
 }
