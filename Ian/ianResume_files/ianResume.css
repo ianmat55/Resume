@@ -22,9 +22,17 @@ p {
 	margin: 5px 0;
 }
 
+a {
+	text-decoration: none; 
+}
+
+a:hover {
+	color: #417ab9;
+}
+
 .skills {
 	margin: 15px 0;
-	line-height: 26px;
+	line-height: 14px;
 }
 
 .title .contact {
@@ -43,17 +51,59 @@ p {
 #header h1 {
 	font-size: 38px;
 	font-weight: 100;
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 	letter-spacing: 5px;
 }
 
-.occupation {
+#contact {
+	font-size: 12px;
+	border-top: 1.5px solid rgb(65 122 185);
+	border-bottom: 1.5px solid rgb(65 122 185);
+	padding: 12px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+#contact ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#contact ul li {
+	display: flex;
+	flex-direction: row;
+	margin: 0 5px;
+	justify-content: center;
+	align-items: center;
+}
+
+#contact ul li img {
+	margin: 0 5px;
+}
+
+.job-history {
 	font-size: 18px;
 	border-top: 1.5px solid rgb(65 122 185);
 	border-bottom: 1.5px solid rgb(65 122 185);
 	padding: 12px;
 	letter-spacing: 5px;
 	text-transform: uppercase;
+	width: 816px;
+	text-align: center;
+}
+
+.description {
+	list-style: circle;
+	margin-left: 1.4em;
+}
+
+.job-list {
+	padding: 45px !important;
+}
+
+.job-list li {
+	padding: 5px 0;
 }
 
 
@@ -76,12 +126,11 @@ p {
 	margin: 0 auto;
 	background: white;
 	padding: 0 25px;
-	
-
 }
 
 .contact_bio {
 	display: flex;
+	flex-direction: row;
 	padding: 35px 0 25px 0;
 	border-bottom: 1.5px solid #a1a1a1;
 }
@@ -112,7 +161,7 @@ p {
 .resume .resume-left {
 	width: 280px;
 	background: #fff;
-	line-height: 22px;
+	line-height: 20px;
 }
 
 .resume .resume-left .resume_content {
@@ -123,20 +172,20 @@ p {
 	padding: 35px 0;
 } */
 
-.resume_education {
+/* .resume_education {
 	padding: 46px 0 0 0;
-}
+} */
 
 #university {
 	font-size: 14px;
 }
 
-.resume_experience{
+.resume_projects{
 	padding: 45px 0;
 }
 
 .resume_skills {
-	padding: 35px 0;
+	padding: 45px 0 15px 0;
 }
 
 .last {
@@ -160,37 +209,18 @@ p {
 	margin-bottom: 0;
 }
 
-ul li .icon {
-	width: 30px;
-	height: 30px;
-	border-radius: 50%;
-	margin-right: 15px;
-	font-size: 10px;
-}
-
-ul li #linkedin_data {
-	text-align: left;
-}
-
-/* .resume .icon i {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-} */
-
 .resume .resume-right {
 	width: 610px;
 	background: #fff;
 	padding: 0 25px;
 }
 
-.resume_experience .bold {
+.resume_projects .bold {
 	text-align: left;
 	padding-left: 60px;
 }
 
-.resume .resume-right .resume_experience ul {
+.resume .resume-right .resume_projects ul {
 	padding-left: 40px;
 	overflow: hidden;
 }
@@ -205,7 +235,7 @@ ul li #linkedin_data {
 	list-style: disc !important;
 }
 
-.resume .resume-right ul li .work_header {
+.resume .resume-right ul li .project_header {
 	margin-bottom: 15px;
 }
 
@@ -218,7 +248,7 @@ ul li #linkedin_data {
 
 }
 
-.resume .resume-right .resume_experience .connect .connect-li:before {
+.resume .resume-right .resume_projects .connect .connect-li:before {
 	content: "";
 	position: absolute;
 	top: 5px;
@@ -231,7 +261,7 @@ ul li #linkedin_data {
 
 }
 
-.resume .resume-right .resume_experience .connect .connect-li:after {
+.resume .resume-right .resume_projects .connect .connect-li:after {
 	content: "";
 	position: absolute;
 	top: 14px;
@@ -241,29 +271,10 @@ ul li #linkedin_data {
 	background: #a1a1a1 !important;
 }
 
-.bottom {
-	background-color: white;
-	margin: 0 auto;
-	width: 816px;
-	height: auto;
-	padding: 0 50px;
+.skill_title {
+	margin: 10px 0;
 }
 
-.resume_references {
-	padding: 45px 0;
-	border-top: 1.5px solid #a1a1a1;
-}
-
-.reference-list {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-}
-
-.refer{
-	margin: 15px 50px;
-}
-
-#reference-title {
-	text-align: center;
+.resume_skills div .bold {
+	margin-bottom: 25px;
 }
