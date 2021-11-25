@@ -1,6 +1,6 @@
 Dear Hiring Manager,
 
-I am seeking opportunities to further build my career and gain meaningful experience as a web developer. I have intermediate experience with SQL, Python, JavaScript and app development. The reason I am applying to WestEd is because I can strongly relate to the companies passion and goal for community development. Growing up in a small community in Hawaii, I learned just how impactful education and resources can have on not only an individual's personal trajectory, but the community as a whole. I would very much like to be part of a company with such a positive mission statement. Here is a link to my Github for my current projects: https://github.com/ianmat55. Please take a moment to review my enclosed resume as well as my application. I appreciate the evaluation of my credentials and look forward to hearing from you.
+I am seeking opportunities to further build my career and gain meaningful experience as a web developer. I have intermediate experience with SQL, Python, JavaScript and app development. I do not have previous job experience as a programmer, but I can guarantee that I am a very fast learner and motivated self-starter. As a self-taught programmer, I feel like I am a good fit for this company and believe in its mission statement. Here is a link to my Github for my current projects: https://github.com/ianmat55. Please take a moment to review my enclosed resume as well as my application. I appreciate the evaluation of my credentials and look forward to hearing from you.
 
 Sincerely,
 Ian Matsumoto
