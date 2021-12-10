@@ -1,6 +1,9 @@
 Dear Hiring Manager,
 
-I am seeking opportunities to further build my career and gain meaningful experience as a web developer. I have intermediate experience with SQL, Python, JavaScript and app development. I do not have previous job experience as a programmer, but I can guarantee that I am a very fast learner and motivated self-starter. As a self-taught programmer, I feel like I am a good fit for this company and believe in its mission statement. Here is a link to my Github for my current projects: https://github.com/ianmat55. Please take a moment to review my enclosed resume as well as my application. I appreciate the evaluation of my credentials and look forward to hearing from you.
+I am very excited to apply for a position as a developer as part of your engineering team. The customer interface and mobile application of doordash fascinates me from both a front-end design standpoint as well as a back-end mechanics point of view and I would love the opportunity to learn more about it in a professional setting. I am seeking to further build my career and gain meaningful experience as a software engineer. I have intermediate experience with SQL, Python, JavaScript, and app development. Everything I currently know about software development has been self-taught through online research or free courses. I am an attentive learner and very motivated to start my journey as a professional programmer.
+
+My previous work experience has been in GIS/data analytics, but I am currently taking online courses before and after work as well as weekends. Here is a link to my Github for my current projects: https://github.com/ianmat55. 
+You can also find more information on my developer website at https://www.ianmats.com/. I appreciate the evaluation of my credentials and look forward to hearing from you.
 
 Sincerely,
 Ian Matsumoto

@@ -7,10 +7,12 @@
 }
 
 body {
-	font-size: 14px;
+	font-size: 15px;
 	line-height: 20px;
 	color: black;
-}
+	margin-top: 3em;
+	font-weight: 550;
+} 
 
 .title {
 	font-size: 16px;
@@ -43,7 +45,7 @@ a:hover {
 	background: white;
 	text-align: center;
 	margin: 0 auto;
-	width: 816px;
+	width: 850px;
 	height: auto;
 	padding: 35px 50px 0 50px;
 }
@@ -181,7 +183,7 @@ a:hover {
 }
 
 .resume_projects{
-	padding: 45px 0;
+	padding: 35px 0;
 }
 
 .resume_skills {
